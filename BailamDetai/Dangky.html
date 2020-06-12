@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="styles/layout2.css" rel="stylesheet">
+	<link href="styles/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<!----------------------------------------------------------
+		Vùng header
+	------------------------------------------------------------>
+	<div id="dau">
+		Vùng trình bày theader
+	</div>
+	<!----------------------------------------------------------
+		Vùng trinh bay menu ngang
+	------------------------------------------------------------>
+	<div id="ngang" style="font-size:16px; ">
+	
+		<div class="mynavbar">
+			  <a href="Trangchu2.html">Trang chủ</a>
+			  <div class="mydropdown">
+					<button class="dropbtn">Sản phẫm &nbsp; 
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="sanpham1.html">Loai Sản phẫm 1</a>
+					  <a href="#">Loai Sản phẫm 2</a>
+					  <a href="#">Loai Sản phẫm 3</a>
+					</div>
+			  </div> 
+			  <a href="Dangky.html">Đăng ký Thành viên</a>
+			  <a href="#">Liên hệ</a>
+			  <a href="#">Giới thiệu</a>
+
+			  <div class="search-container">
+					<form action="/action_page.php">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+			  			<a class="btn" href="Dangnhap.html"><img src="images/vmonth.png">Đăng nhập</a>&nbsp
+					</form>
+			  </div>
+		</div>
+
+	</div>
+	<!----------------------------------------------------------
+		Vùng main
+	------------------------------------------------------------>
+	<div id="than">
+	<!----------------------------------------------------------
+		Vùng trinh bay phan ben trai voi menu doc
+	------------------------------------------------------------>
+		<div id="trai">
+			<h4 align="center">Chọn loại sản phẫm</h4>
+			<div class="sidenav">
+			  <a href="#">Loai Sản phẫm 1</a>
+			  
+			  <button class="dropdown-btn">Loai Sản phẫm 2
+				<i class="fa fa-caret-down"></i>
+			  </button>
+			  <div class="dropdown-container">
+				<a href="sanpham1.html">Sản phẫm 1</a>
+				<a href="#">Sản phẫm 2</a>
+				<a href="#">Sản phẫm 3</a>
+			  </div>
+			  
+			  <button class="dropdown-btn">Loai Sản phẫm 3
+				<i class="fa fa-caret-down"></i>
+			  </button>
+			  <div class="dropdown-container">
+				<a href="sanpham1.html">Sản phẫm 1</a>
+				<a href="#">Sản phẫm 2</a>
+				<a href="#">Sản phẫm 3</a>
+			  </div>
+			  			  			  
+			  <a href="#contact">Loai Sản phẫm 4</a>
+			</div>		
+			Vùng trình bày tự do
+		</div>
+
+		<div id="giua" align="center">
+			<!--------------------------------------------------
+					Vung trinh bay noi dung cac trang con : form dangky.html
+			--------------------------------------------------->
+			<br>
+			<div class="container" style="width:90%; border: 2px solid; ">
+			  <h2>ĐĂNG KÝ KHÁCH HÀNG</h2>
+			  <form class="form-horizontal" name="myform">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Họ tên:</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="ten" placeholder="Họ tên" name="ten">
+				  </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Email :</label>
+			  	  <div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+				  </div>
+				</div>
+  
+  				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Địa chỉ :</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="dc" placeholder="Địa chỉ :" name="dc">
+				  </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Tuổi :</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="tuoi" placeholder="Tuổi" name="tuoi">
+				  </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Giới tính :</label>
+				  <div class="radio">
+					  <label><input type="radio" name="optradio" checked>Nam</label>
+					  &nbsp;&nbsp;&nbsp;
+					  <label><input type="radio" name="optradio">Nữ </label>
+				  </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">Nghề nghiệp:</label>	
+				  <div class="col-sm-10">			
+					  <select class="form-control" id="sel1">
+						<option>Sinh viên</option>
+						<option>Công nhân</option>
+						<option>Công chức</option>
+						<option>Kinh doanh</option>
+						<option>Giáo viên</option>
+						<option>Bác sĩ</option>
+					  </select>
+				  </div>
+				</div>
+				<hr size="5px" align="center">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="text">User name :</label>
+				  <div class="col-sm-10">
+					<input type="text" class="form-control" id="name" placeholder="User name" name="name">
+				  </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="pwd">Password:</label>
+				  <div class="col-sm-10">          
+					<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
+				  </div>
+				</div>
+	
+				<div class="form-group">        
+					<button type="submit" class="btn-info" onclick="return validateform();" style="font-size: 18px; ">Đăng ký</button>
+				</div>
+				<br>
+				<br>
+			  </form>
+			</div>
+
+			
+		</div>
+			<!------------------------------------------------------------
+				Vùng trình bay cho phan ben phai
+			-------------------------------------------------------------->
+		<div id="phai">
+			Vùng trình bày tự do
+			<img src="images/giohang3.jpg" width="60" height="60" style="float:left; ">
+			<h4>Giỏ hàng :  Bạn đã chọn </h4>
+			<table class="table" style="border: 1px solid; ">
+				<tr>
+					<td>1</td>
+					<td>Vòng đeo cổ</td>
+					<td>2</td>
+					<td align="right">2.000.000 đ</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Bông tai</td>
+					<td>2</td>
+					<td align="right">1.500.000 đ</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Nhẩn đá quí</td>
+					<td>4</td>
+					<td>1.000.000 đ</td>
+				</tr>
+				<tr>
+					<td align="right" colspan="3">Tổng tiền :</td>
+					<td align="right" style="font-size:16px; color:#FF0000; ">12.100.000 đ</td>
+				</tr>
+			</table>
+
+			<h3 align="center" style="color:#00CCFF; ">Có thể bạn quan tâm</h3>
+			<table class="table" style="width: 100%; border-bottom: 3px solid; ">
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/bootstrap-ecommerce-templates.PNG" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/bootstrappage_shop.png" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/bootstrap-ring.png" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/bootstrap-template.png" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/bootstrap-templates.png" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						Sản phẫm 1<br><font size="5" color="#FF0000">2.500.000 đ</font>
+						<button class="btn-success">Mua</button>
+					</td>
+					<td align="right" width="30%">
+					<a href="#"><img src="images/d.jpg" title="Xem Chi tiết" width="80" height="80" /></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		</div>
+	</div>
+	
+	<!----------------------------------------------------------
+		Vùng footer
+	------------------------------------------------------------>
+	<div id="chan">
+		<font color="#ffffff" style="font-size: 16px; font-weight:bold; ">Vùng trình bày phần footer</font>
+	</div>
+
+
+<!--------------------------------------------------------------------------------------------
+Code JavaScript phuc vu cho trang web
+---------------------------------------------------------------------------------------------->	
+<script>
+	/* ********************************************************* */
+	/*  code xu ly Dropdown trong menu doc                                   */
+	/* ***********************************************************/
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+	
+	for (i = 0; i < dropdown.length; i++) {
+	  dropdown[i].addEventListener("click", function() {
+	  this.classList.toggle("active");
+	  var dropdownContent = this.nextElementSibling;
+	  if (dropdownContent.style.display === "block") {
+	  dropdownContent.style.display = "none";
+	  } else {
+	  dropdownContent.style.display = "block";
+	  }
+	  });
+	}
+	
+	/*******************************************************/
+	/* code cho slide Show dung cho san pham ban chay nhat */
+	/*******************************************************/
+	var slideIndex = 0;
+	showSlides();
+	
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	}
+
+	/***********************************************************/
+	/* code cho form dangky.html                             */
+	/***********************************************************/
+	    function validateform() {
+        var ten = document.myform.ten.value;
+		var dc = document.myform.dc.value;
+		var name = document.myform.name.value;
+        var password = document.myform.password.value;
+        var x = document.myform.email.value;
+        var atposition = x.indexOf("@");
+        var dotposition = x.lastIndexOf(".");
+
+ 
+        if (ten == null || ten == "") {
+            alert("Họ Tên không được trống");
+            return false;
+		} else if(atposition < 1 || dotposition < (atposition + 2) || (dotposition + 2) >= x.length) {
+            alert("Nhập lại Email cho đúng.");
+            return false;
+        } else if (dc == null || dc == ""){
+			alert("Địa chỉ không được rỗng.");
+			return false;
+		} else if(name == null || name == "") {
+			alert("User name không được rỗng.");
+			return false;
+        } else if (password.length < 8) {
+            alert("Password phải 8 ký tự trở lên.");
+            return false;
+        }
+	}
+	
+</script>
+</body>
+</html>
